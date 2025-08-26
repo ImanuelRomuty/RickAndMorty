@@ -55,4 +55,10 @@ Aplikasi Android untuk menampilkan daftar karakter dari serial **Rick and Morty*
    git clone https://github.com/ImanuelRomuty/RickAndMorty.git
    cd RickAndMorty
 
+2.Buka proyek di Android Studio.
+
+3.Sync Gradle untuk memastikan semua dependensi terunduh.
+
+4.Jalankan aplikasi di emulator atau perangkat fisik.
+
 
