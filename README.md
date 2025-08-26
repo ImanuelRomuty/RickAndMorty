@@ -46,6 +46,26 @@ Aplikasi Android untuk menampilkan daftar karakter dari serial **Rick and Morty*
 ## FLOW
 <img width="792" height="341" alt="Rick and Morty flow (1)" src="https://github.com/user-attachments/assets/97899338-e000-43e8-abd5-4ba4625019cf" />
 
+## Konfigurasi Tambahan
+
+1. Pastikan perangkat/emulator memiliki koneksi internet pada pertama kali membuka aplikasi untuk mengambil data dari API.
+2. Data akan tersimpan di Room, sehingga saat offline, kamu tetap bisa membuka daftar dan detail karakter.
+3. Gambar karakter diambil langsung dari URL API dan di-cache oleh Coil.
+
+## Cara Menggunakan
+
+1. Buka aplikasi → daftar karakter muncul.
+2. Scroll ke bawah untuk memuat halaman berikutnya.
+3. Ketuk karakter → buka halaman detail dengan informasi lengkap.
+4. Gunakan kotak pencarian di atas untuk mencari karakter berdasarkan nama.
+
+# Catatan Penting
+1. Fitur pencarian offline masih terbatas, hanya bisa mencari karakter yang sudah tersimpan di database.
+2. Detail karakter bisa diakses offline karena data tersimpan di Room Database.
+3. Aplikasi ini menggunakan API publik, sehingga jumlah data mungkin terbatas.
+
+# API
+1. Link Publik API Rick and Morty : https://rickandmortyapi.com/
 ---
 
 ## Instalasi
