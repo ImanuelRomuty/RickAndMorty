@@ -43,6 +43,8 @@ Aplikasi Android untuk menampilkan daftar karakter dari serial **Rick and Morty*
 - **Coil** (Image Loading)  
 - **Coroutines + Flow** (Asynchronous Programming)
 
+##FLOW
+Rick and Morty flow (1).png
 ---
 
 ## Instalasi
